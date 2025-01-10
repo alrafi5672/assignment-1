@@ -1,0 +1,150 @@
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+  
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 160px 24px 160px;
+    position: absolute;
+    width: 1600px;
+    height: 100px;
+    left: 0;
+    top: 0;
+}
+
+.nav-logo{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-btn{
+    background-color: white;
+    color: rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: 1px solid rgb(0, 106, 80);
+}
+
+/* hero styles */
+.hero{
+    width: 1280px;
+    height: 560px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 120px 160px 80px;
+    padding: 60px 160px;
+    gap: 64;
+}
+
+.hero-content{
+
+}
+
+.hero-1{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+    margin-top: 0%;
+}
+
+.hero-2{
+    font-size: 56px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 1);
+    width: 620px;
+    height: 201px;
+    text-align: left;
+    margin-bottom: 24px;
+    margin-top: 0%;
+}
+
+.hero-btn{
+    border-radius: 8px;
+    background-color: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    padding: 17px 34px;
+    margin: 0px;
+}
+
+.hero-img{
+    width: 474.03px;
+}
+
+/* 1st section styles */
+.section-1{
+padding: 0px 160px;
+}
+
+.section-1-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    margin: 0 160 24;
+    width: 1280px;
+}
+
+.section-1-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    width: 1280px;
+}
+
+.visions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+
+.vision-1{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.vision-2{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+
+.vision-3{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+}
+
+.vision-title{
+
+}
+
+.vision-description{
+
+}
