@@ -247,36 +247,69 @@ nav li a{
 
 /* News-section */
 .news-section{
-
+    margin: 0px 160px ;
+    width: 1280px;
 }
 .news-border{
-
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    border: 1px solid #00000010;
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    margin-bottom: 24px;
 }
 .news-img{
-
+    border-radius: 24px;
 }
 .news-head{
-
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    margin: 12px 0px;
+    width: 744px;
 }
 .news-al-img{
-
+    margin: 12px 0px;
+    width: 134px;
+    height: 40px;
 }
 .news-p{
-
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin: 12px 0px;
 }
 .news-btn{
-
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    background: rgb(0, 106, 80);
+    padding: 13px 26px 13px 26px;
+    border: none;
 }
 
 /* donate-section */
 .donate-section{
-
+    margin: 0px 160px ;
 }
 .donate-tk-section{
-
+    display: flex;
+    gap: 24px;
 }
 .donate-tk{
-
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 40px;
+}
+.input-item{
+    display: flex;
+    ;
 }
 .donate-h{
 
@@ -289,7 +322,7 @@ nav li a{
 }
 /* newsletter-section */
 .newsletter-section{
-
+    margin: 0px 160px ;
 }
 .newsletter-input{
 
@@ -299,4 +332,12 @@ nav li a{
 }
 .newsletter-p{
     
+}
+
+span{
+    display: flex;
+    gap: 12px;
+}
+.center{
+    text-align: center;
 }
