@@ -95,7 +95,7 @@ nav li a{
 
 /* 1st section styles */
 .section-1{
-padding: 0px 160px;
+    margin: 0px 160px ;
 }
 
 .section-1-title{
@@ -103,8 +103,7 @@ padding: 0px 160px;
     font-size: 40px;
     font-weight: 700;
     text-align: left;
-    margin: 0 160 24;
-    width: 1280px;
+    margin-bottom: 24px;
 }
 
 .section-1-description{
@@ -112,6 +111,7 @@ padding: 0px 160px;
     font-size: 16px;
     font-weight: 400;
     text-align: left;
+    margin-bottom: 32px;
     width: 1280px;
 }
 
@@ -120,31 +120,183 @@ padding: 0px 160px;
     align-items: center;
     justify-content: space-between;
     gap: 24px;
-
+    max-width: 1280px;
 }
 
 .vision-1{
     box-sizing: border-box;
     border-radius: 16px;
     background: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+    width: 410.67px;
+    height: 325px;
 }
 
 .vision-2{
     box-sizing: border-box;
     border-radius: 16px;
     background: rgb(198, 228, 214);
+    padding: 32px;
+    width: 410.67px;
+    height: 325px;
 }
 
 .vision-3{
     box-sizing: border-box;
     border-radius: 16px;
     background: rgb(247, 235, 207);
+    padding: 24px;
+    width: 410.67px;
+    height: 325px;
+}
+.vision-img{
+    margin-bottom: 0px;
 }
 
 .vision-title{
-
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 24px;
+    margin-bottom: 0;
 }
 
 .vision-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 12;
+    margin-bottom: 24;
+}
 
+.vision-btn-1{
+    background-color: rgb(84, 144, 245);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 11px 20px;
+    border: none;
+    margin-top: 0px;
+}
+
+.vision-btn-2{
+    background-color: rgb(9, 161, 92);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 11px 20px;
+    border: none;
+    margin-top: 24px;
+}
+
+.vision-btn-3{
+    background-color: rgb(255, 194, 57);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 11px 20px;
+    border: none;
+    margin-top: 40px;
+}
+
+/* quote-section-styles */
+.quote-section{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin: 32px 160px 0px;
+    padding: 48px 24px;
+    width: 1280px;
+    height: 256px;
+}
+
+.quote-img{
+    margin-top: -18px;
+    margin-bottom: 0px;
+}
+
+.quote-1{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: -42px;
+    margin-bottom: 12px;
+}
+
+.quote-2{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+.quote-3{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* News-section */
+.news-section{
+
+}
+.news-border{
+
+}
+.news-img{
+
+}
+.news-head{
+
+}
+.news-al-img{
+
+}
+.news-p{
+
+}
+.news-btn{
+
+}
+
+/* donate-section */
+.donate-section{
+
+}
+.donate-tk-section{
+
+}
+.donate-tk{
+
+}
+.donate-h{
+
+}
+.input-tk{
+
+}
+.donate-btn{
+
+}
+/* newsletter-section */
+.newsletter-section{
+
+}
+.newsletter-input{
+
+}
+.newsletter-btn{
+
+}
+.newsletter-p{
+    
 }
